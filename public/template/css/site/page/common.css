@@ -1,0 +1,62 @@
+
+/* Common */
+.static-page .static-page-header{
+    border-left: 10px solid rgb(255, 59, 59)
+}
+
+.static-page .static-page-header > *{
+    margin-left: 10px; border-bottom: 1px solid rgb(255, 59, 59);
+    padding: 10px 0;
+    font-weight: bold
+}
+
+.static-page .static-page-body{
+    line-height: 1.5em;
+    color: #4f4f4f;
+    font-size: 1.1em;
+}
+
+.static-page .static-page-body table{
+    width: 100%;
+}
+
+.static-page .static-page-body a.link-red,
+.static-page .static-page-body a.link-red:visited {
+    color: #d72727;
+    text-decoration: none;
+}
+
+.static-page .static-page-body a.link-red:hover {
+    text-decoration: underline;
+}
+
+.static-page .circle-node > *,
+.static-page .circle-node > *{
+    font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif !important;
+}
+
+.custom-btn-group button, .custom-btn-group a {
+    background-color: #eeeeee;
+    color: black;
+    margin-bottom: 1px;
+    border-left: 5px solid #D72727;
+}
+
+/*.has-error {
+    border: 1px solid red !important;
+}*/
+
+/* Style class */
+.kyoutyou {
+    font-weight: bold;
+    color: #292929;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.honbun-ji-no {
+    line-height: 22px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+

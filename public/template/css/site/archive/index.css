@@ -1,0 +1,24 @@
+.border {
+    border: 1px solid #ccc;
+}
+.modal-header {
+    background-color:black ;
+    color: white;
+    height: 46px;
+}
+.modal-title {
+    line-height: 0.8 !important;
+}
+.h-40 {
+    height: 40px;
+}
+.pd-10 {
+    padding-top: 10px;
+}
+.box {
+    border : 2px solid #90AEBD;
+}
+.archive {
+    color: #95989a;
+    background-color: white;
+}

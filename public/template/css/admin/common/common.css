@@ -1,0 +1,54 @@
+.image-article .image-container,
+.image-article .drop-container {
+    margin: 2px;
+    display: block;
+    /* border: 1px solid #ddd; */
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0;
+    cursor: move;
+}
+
+.drop-container .btn-choose-file:hover {
+    background-color: #ddd;
+}
+.drop-container .btn-choose-file {
+    text-align: center;
+    margin: auto;
+    border: 1px solid #ddd;
+    font-size: 0.8em;
+    box-sizing: border-box;
+    width: 80%;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image-article .drop-container > div:first-child{
+    background: #eee;
+}
+
+.image-article .image-container > img,
+.image-article .drop-container > div:first-child{
+    height: 100px;
+    width: 100%;
+    display: block;
+    background-color: #eee;
+    padding: 0;
+}
+.image-article .drop-container > div:first-child{
+    border: 1px solid #ddd;
+}
+.image-article .image-container > img:not(.form-control){
+    border: 1px solid #ddd;
+}
+
+.draggable{
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+.dropped{
+    position: static !important;
+}

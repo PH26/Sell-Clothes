@@ -1,0 +1,85 @@
+/**
+ * -----------------------------------------------------------------------------
+ * CSS for photobook common
+ * -----------------------------------------------------------------------------
+ */
+.info{
+    /*font-size: 0.9em;*/
+    line-height: 28px;
+}
+
+.info .price{
+    font-size: 1.2em;
+}
+
+.photobook-media{
+     max-width: 231px;
+     margin: 0 auto
+}
+
+.social-box{
+    margin-top: 15px;
+    margin-bottom: -10px;
+}
+
+.social-box .social{
+    border-top: 3px solid #DDD8D8;
+    padding-top: 15px;
+}
+
+.book-image img{
+    width: 100%;
+}
+
+/* CSS for PC and Ipad */
+@media (min-width: 768px){
+    .book-image{
+        float: left;
+        width: 35%;
+    }
+    
+    .book-content{
+        float: right;
+        width: 62%;
+    }
+    
+    .book:after{
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
+
+/* CSS for PC and Ipad */
+@media (max-width: 767px){
+    .book-image{
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+
+/**
+ * -----------------------------------------------------------------------------
+ * CSS for photobook list
+ * -----------------------------------------------------------------------------
+ */
+
+.digital-type{
+    padding: 3px;
+    color: white;
+    display: inline-block
+}
+
+.page-photobook .custom-list-item-thumbnail{
+    position: relative;
+}
+
+.page-photobook .custom-list-item-thumbnail .digital-type{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+}

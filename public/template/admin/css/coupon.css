@@ -1,0 +1,31 @@
+.pd-top-20 {
+    padding-top: 20px;
+}
+.w-70 {
+    width: 70%;
+}
+.bgblue1 {
+    background-color: #79a6f1 !important;
+}
+.bgblue1:hover, .bgblue1:active {
+    background-color: #79a6f1 !important;
+}
+.btn-default:hover {
+    cursor: default;
+}
+.bgblue1:hover, .bgblue1:active {
+    background-color: #79a6f1 !important;
+}
+.bgorange:hover, .bgorange:active {
+    background-color: #ffe6bc !important;
+}
+.bgorange {
+    background-color: #ffe6bc !important;
+}
+.bgblue {
+    background-color: #9adebf !important;
+}
+.mg-left {
+    margin-left: 1.2% !important;
+}
+

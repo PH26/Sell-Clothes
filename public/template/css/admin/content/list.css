@@ -1,0 +1,167 @@
+.btn-search,.btn-clear{
+    margin-top: 25px
+}
+
+.list .no-data-found{
+    font-weight: bold; font-size: 15px; padding: 5px 0px 20px 0px; border-top: 1px solid #ddd; margin-top: 15px
+}
+
+.list .head{
+    padding-left: 5px;
+}
+
+.list .head > div{
+    border: 1px solid #bfbfbf; padding: 5px;
+}
+
+.list .sortable > div{
+    border: 1px solid #bfbfbf; padding: 5px; position: static
+}
+
+.row-content{
+    background-color: #fff;
+}
+.row-content.ui-sortable-placeholder div{
+    border: 1px dashed #0073b7;
+    box-sizing: border-box;
+    height: 100%;
+}
+.content-list .confirmation-url{
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: left;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 4px;
+    width: 550px;
+    word-break: break-all;
+    word-wrap: break-word;
+    max-width: 100%;
+}
+.content-list .confirmation-url span{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+.content-list .thumbnail{
+    width: 100%; /*can be anything*/
+}
+
+.content-list .thumbnail > div{
+    width: 100%; /*can be anything*/
+    display: inline-block;
+    vertical-align: top; /*not required*/
+    position: relative;
+}
+
+.content-list .thumbnail img {  
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto; 
+}
+
+.content-list .info{
+    border: 1px solid #ddd; padding: 5px; background-color: #f4f4f4;
+}
+
+/* CSS for drag and drop */
+.image-article .image-container, .image-article .drop-container{
+    margin: 2px;
+    display: block;
+    /*border: 1px solid #ddd;*/
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+.image-article .image-container{
+    cursor: move;
+}
+
+.image-article .drop-container > div:first-child{
+    background: #eee;
+}
+
+.image-article .image-container > img,
+.image-article .drop-container > div:first-child{
+    height: 100px;
+    width: 100%;
+    display: block;
+    background-color: #eee;
+    padding: 0;
+}
+.image-article .drop-container > div:first-child{
+    border: 1px solid #ddd;
+}
+.image-article .image-container > img:not(.form-control){
+    border: 1px solid #ddd;
+}
+
+.draggable{
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+}
+.dropped{
+    position: static !important;
+}
+
+/* CSS image in content */
+.content-container .image-container{
+    width: 100%;
+    margin: 2px 0px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    position: relative;
+    background: #fff;
+}
+
+.content-container .image-container img{
+    height: 100px;
+    max-width: 100px !important;
+}
+
+.content-container .image-container .thumbnail{
+    margin-bottom: 0px;
+}
+
+.btn-choose-file{
+    text-align: center;
+    margin: auto;
+    border: 1px solid #ddd;
+    font-size: 0.8em;
+    box-sizing: border-box;
+    width: 80%;
+    background: #fff;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.btn-choose-file:hover{
+    background-color: #ddd;
+}
+
+/* Custom css bootstrap */
+.progress{
+    margin-bottom: 0;
+    border-radius: 0;
+}

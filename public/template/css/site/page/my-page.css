@@ -1,0 +1,140 @@
+#text_header {
+    border-left : 2px solid black;
+    border-bottom : 2px solid black;
+    background-color: whitesmoke;
+}
+.header {
+    font-weight: bold;
+    margin-left: 2%;
+    font-size: 140%;
+}
+.icon-content {
+    font-size: 140%;
+}
+.content-text {
+    letter-spacing:-.04em;padding-top:2px;padding-left:20px;
+}
+#number {
+    font-weight: bold;
+}
+.content-text-security {
+    line-height: 170%;
+}
+
+.icon-content-sct  {
+    color:red;
+    font-size: 17px;
+    font-weight: bold;
+}
+.content-text-sct {
+    letter-spacing:-.04em;padding-top:2px;padding-left:20px;
+    font-weight:bold;
+}
+.icon-content-device {
+    font-size: 15px;
+}
+
+#text_header_credit {
+    background-color: #444;
+}
+.header-credit {
+    color: white;
+    margin-left: 2%;
+}
+.credit-custom-hr {
+    border-top: 1px dotted #949799;
+    margin-top: 17px;
+}
+.title-label {
+    font-weight: bold;
+}
+.credit-change-custom-hr {
+    border-top: 1px dotted #949799;
+    margin-top: 4px;
+}
+#label-credit {
+    background-color: #a4c4f4 !important;
+    color: black;
+    border: none !important;
+}
+#cancel-credit {
+    background-color: #ceeaa6;
+    color: black;
+}
+/*#accept-credit,#post-accept-update-email,#success-update,#accept-password,#accept-update-email {
+    background-color:#ceeaa6 ;
+    color: black;
+}*/
+.help-block {
+    /*color: red;*/
+}
+.has-error {
+    /*border: 1px solid red !important;*/
+}
+.help-block_name {
+    color: red;
+}
+
+.help-block-email,.help-block-current-pass,.help-block-new-password,.help-block-confirm-password {
+    color: red;
+}
+.inline-radio {
+    top: 5px;
+    position: relative;
+    width: 30px !important;
+    height: 20px;
+}
+
+.w-100 {
+    width: 100%;
+}
+.w-130 {
+    width: 130%;
+}
+.w-50 {
+    width: 50%;
+}
+.border {
+    border: 1px solid #ccc;
+    height: 30px;
+}
+.font3 {
+    font-size: 3em;
+}
+.btn-blue {
+    background: #6bbdf4;
+}
+.h-60 {
+    height: 60px;
+}
+.h-30 {
+    height: 30px;
+}
+.mgLeft5 {
+    margin-left: 5px;
+}
+.mgLeft10 {
+    margin-left: 10px;
+}
+.font14 {
+    font-size: 14px;
+}
+.bg-yellow{
+    background-color: #f9aa48 !important;
+}
+.green  {
+    background-color: #63a06d !important;
+}
+.border {
+    border: 1px solid #ccc;
+}
+
+.btn.large{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.btn-gray{
+    color: white;
+    background-color: #7D7779;
+}

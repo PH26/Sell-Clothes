@@ -1,0 +1,7 @@
+.slider {
+    border-style: hidden !important;
+    background-color: white !important;
+    .container {
+    text-align: center;
+}
+}

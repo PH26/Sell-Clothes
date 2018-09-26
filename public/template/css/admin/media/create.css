@@ -1,0 +1,26 @@
+#drop-area{
+    width: 100%;
+    padding: 30px;
+    background: #eee;
+}
+
+#drop-area .container{
+    text-align: center;
+}
+
+.file-container{
+    border-bottom: 1px solid #ddd;
+    padding: 10px 10px 0px 10px;
+}
+
+/*.file-container:last-child{
+    border-bottom: 0px solid #ddd;
+}*/
+
+.media-content{
+    padding: 10px;
+}
+
+.has-error .media-content{
+    border: 1px solid #a94442;
+}

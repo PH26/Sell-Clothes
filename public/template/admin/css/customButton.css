@@ -1,0 +1,17 @@
+#buttonPageList{
+	margin: 5px;
+}
+
+#buttonAdd{
+	margin-right: 5px;
+}
+
+#buttonUpdate{
+	margin-right: 5px;
+}
+
+.modal-header{
+	background-color: #666666;
+	color: white;
+}
+

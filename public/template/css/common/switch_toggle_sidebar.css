@@ -1,0 +1,6 @@
+.onoffswitch-inner:before {
+    content: "会員用";
+}
+.onoffswitch-inner:after {
+    content: "無料公開";
+}

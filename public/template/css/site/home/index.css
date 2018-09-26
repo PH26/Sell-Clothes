@@ -1,0 +1,20 @@
+.group-thumbnail, .lastest-content .custom-list-item-thumbnail{
+    border: 1px solid #ddd; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #ddd; position: relative
+}
+
+.new-content-icon{
+    background-image: url('/media/icon/new.jpg'); background-repeat: no-repeat; background-position: center; background-size: contain; height: 52px; width: 50px;
+}
+
+.preview-cover{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}

@@ -1,0 +1,114 @@
+/*==============================================================================
+Begin CSS for content detail page
+==============================================================================*/
+.content-container .title h1{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-weight: bold
+}
+
+.content-container .content-date{
+    color: #989898;
+}
+
+#div-friday-content .image-container[data-type="unpaid"],
+#div-friday-content .image-container[data-viewer="true"]{
+    cursor: pointer;
+}
+
+/*==============================================================================
+CSS for relative content
+==============================================================================*/
+.relative-contents .rc-box > a > div{
+    border: 1px solid #ddd;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.relative-contents .rc-box > a > span{
+    font-size: 11px;
+    cursor: pointer;
+    display:inline-block;
+    width:100%;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+
+/* CSS for social buttons */
+.social:after{
+    content: "";
+    display: block;
+    clear: both
+}
+.social > ul{
+    padding: 0;
+    list-style: none;
+}
+
+.social > ul > li.line{
+    margin-top: -0.5px;
+}
+
+.social > ul > li{
+    padding: 0px 2px;
+    float: left;
+}
+.social > ul > li > a{
+    padding: 0;
+    margin: 0;
+    /*padding: 5px 10px;*/
+}
+
+/* CSS for slide */
+#thumbs-slider{
+    width: 1px;min-width: 100%;
+    padding: 5px 0px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#thumbs-slider .item{
+    height: 10rem;
+    background: #4DC7A0;
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    cursor: pointer;
+}
+
+/*==============================================================================
+Begin CSS for content list page
+==============================================================================*/
+.content-list .custom-list-item-thumbnail{
+    height: 64px;
+    width: 64px;
+}
+.content-list .box-header{
+    /*background: #00b865;*/
+}
+.box-header.header-event{
+    background-color: #049252; /*green;*/
+}
+
+.box-header.header-entertainment{
+    background-color: #ff5001; /*orange;*/
+}
+
+.box-header.header-sport{
+    background-color: #2459b4; /*blue;*/
+}
+.box-header.header-gravure{
+    background-color: #d94f8b; /*deeppink;*/
+}
+
+.box-header.header-other{
+    background-color: #f7a91e;/*yellow;*/
+}

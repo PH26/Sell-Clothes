@@ -1,0 +1,57 @@
+.btn-add-row{
+    display: inline-block;
+    border: 2px solid #ddd;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3.5em;
+    background-color: #fff;
+    outline: none;
+}
+
+.btn-add-row:enabled:hover{
+    border-color: #09c;
+}
+
+.btn-add-row:disabled{
+    opacity: 0.5;
+}
+
+.btn-add-row:focus, .btn-add-row:active{
+    background-color: #eee
+}
+
+#gallery-area{
+    padding: 5px;
+    border: 1px solid #ddd;
+    min-height: 50px;
+    height: auto;
+}
+
+.album-image-container .remove:hover{
+    color: red;
+    background-color: #fff;
+}
+
+.album-image-container .remove{
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    border-bottom-left-radius: 5px;
+    background: #fff;
+    padding: 5px;
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+#gallery-area .ui-sortable-placeholder div{
+    border: 1px dashed #0073b7;
+    box-sizing: border-box;
+    height: calc(100% - 20px);
+}
+
+.album-image-container .thumbnail{
+    position: relative;
+}
